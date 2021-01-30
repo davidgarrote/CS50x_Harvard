@@ -1,0 +1,22 @@
+// Variables
+$font: Helvetica sans-serif;
+
+.reviews{
+    height: 700px;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    h6{
+        color:darkblue;
+        font-size: large;
+        font-family: $font;
+    }
+}
+
+//Extends h6 (darkblue, large size and family-font $font) 
+//and adds an italic style
+.reviews p{
+    @extend h6;
+    font-style: italic;
+}
+

@@ -1,0 +1,17 @@
+.reviews {
+  height: 700px;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+.reviews h6, .reviews p {
+  color: darkblue;
+  font-size: large;
+  font-family: Helvetica sans-serif;
+}
+
+.reviews p {
+  font-style: italic;
+}
+/*# sourceMappingURL=main.css.map */
